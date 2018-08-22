@@ -2,5 +2,5 @@
 import com.john.*
 
 //eo = new EvenOddBuilder()  
-def config = [":"]
+def config = [:]
 customPipeline(currentBuild.getNumber(), config)
