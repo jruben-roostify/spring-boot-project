@@ -4,5 +4,5 @@ import com.john.*
 //eo = new EvenOddBuilder()  
 def config = [runTest:true]
 //def pipe = abstractPipeline.buildPipeline()
-customPipeline(currentBuild.getNumber(), config)
+//customPipeline(currentBuild.getNumber(), config)
 gradleSteps(config)
