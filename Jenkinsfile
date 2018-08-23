@@ -5,3 +5,4 @@ import com.john.*
 def config = [runTest:true]
 //def pipe = abstractPipeline.buildPipeline()
 customPipeline(currentBuild.getNumber(), config)
+gradleSteps(config)
